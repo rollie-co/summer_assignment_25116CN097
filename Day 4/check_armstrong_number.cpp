@@ -2,7 +2,7 @@
 using namespace std;
 int main (){
     int n;
-    cout<<"enter the num"<<endl;
+    cout<<"enter the number to check armstrong"<<endl;
     cin>>n;
 
     int original = n;
