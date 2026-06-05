@@ -28,7 +28,7 @@ while(temp>0){                              /// next loop for finding the number
   sum = sum + power(rem, count);
 }
 if(sum==original){                            /// checking the conditions ??
-    cout<<"yeaaa it's a prime !!!"<<endl;
+    cout<<"yeaaa it's armstrong number!!!"<<endl;
 }
 else
 cout<<"nahh try again "<<endl;
