@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int power(int base, int exp){
+int power(int base, int exp){              /// created a function becz of cult classic pow() error!! 
     int result = 1;
     for(int i =0; i<exp; i++){
        result= result * base;
@@ -17,17 +17,17 @@ int main (){
     int temp = n;
     int sum = 0;
 
-while(temp>0){
+while(temp>0){                               /// loop for counting digits only -->
     temp = temp/10;
     count++;
 }
 temp = n;
-while(temp>0){
+while(temp>0){                              /// next loop for finding the numbers in them and perform calc -->
  int rem= temp%10;
   temp = temp/10;
   sum = sum + power(rem, count);
 }
-if(sum==original){
+if(sum==original){                            /// checking the conditions ??
     cout<<"yeaaa it's a prime !!!"<<endl;
 }
 else
