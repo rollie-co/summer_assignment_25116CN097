@@ -1,14 +1,10 @@
 #include<iostream>                                     
-using namespace std;               // output -> eg.
-int main(){                                         //  5
-                                                    //  * 
-                                                    //  *  * 
-                                                    //  *  *  * 
-                                                    //  *  *  *  * 
-                                                    //  *  *  *  *  * 
-    int n ;
-    cin>>n;
-    
+using namespace std;                                                  // output -> eg. (4)
+int main(){                          
+    int n ;                                                                        // *
+    cout<<"enter the number of stars to print -> \n";                              // * * 
+    cin>>n;                                                                        // * * *
+                                                                                   // * * * *
 for(int i =1; i<=n; i++){
     for(int j =1; j<=i; j++){
         cout<<" * ";
