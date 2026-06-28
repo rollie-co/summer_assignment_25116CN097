@@ -26,5 +26,4 @@ int main() {
 
     } while (guess != secret);
 
-    return 0;
 }
