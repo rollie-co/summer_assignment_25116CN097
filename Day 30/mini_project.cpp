@@ -90,9 +90,9 @@ int main() {
                 break;
 
             case 3:
-                if (count == 0) { cout << "no records found " << endl; break; }
+                if (count == 0) { cout << "Koi record nahi!" << endl; break; }
                 {
-                    int idx = findTopper();  , index return karta hai
+                    int idx = findTopper(); 
                     cout << "Topper: " << names[idx] << " (" << marks[idx] << " marks)" << endl;
                 }
                 break;
