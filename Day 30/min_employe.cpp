@@ -13,7 +13,7 @@ int main() {
     do {
         cout << "\n--- Menu ---" << endl;
         cout << "1. Employee Add " << endl;
-        cout << "2. Sabhi Employees " << endl;
+        cout << "2. show all Employees " << endl;
         cout << "3. Highest Salary Employee" << endl;
         cout << "4. Total Salary Expense" << endl;
         cout << "5. Employee Search " << endl;
